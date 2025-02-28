@@ -19,16 +19,16 @@ const Navbar = () => {
            {
         setPage('/reseller'); 
         setData('Profile');
-        setNavigate(`${reseller.fullname || dealer.fullname}/profile`)
+        setNavigate('/profile')
       } 
       else if (reseller?.fullname == null) {
         setPage('/dealer'); 
         setData('Profile');
-        setNavigate(`${reseller.fullname || dealer.fullname}/profile`)
+        setNavigate('/profile')
         
       }else {  
           setData('Profile'); 
-          setNavigate(`${reseller.fullname || dealer.fullname}/profile`)
+          setNavigate('/profile')
         }
       }, [reseller, dealer]);
 
