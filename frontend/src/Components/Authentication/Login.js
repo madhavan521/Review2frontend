@@ -108,10 +108,10 @@ const handleResellerlogin = async (e) => {
        
             <div className="row mt-3">
                 <div className="col-6 text-center">
-                <button type="submit" className="btn text-light loginButton" onClick={handleDealerlogin}>Dealer Login</button>  
+                <button type="submit" className="btn text-light loginButton" onClick={handleDealerlogin}>Dealers Login</button>  
             </div>
                 <div className="col-6 text-center">
-                <button type="submit" className="btn text-light loginButton"  onClick={handleResellerlogin}> Reseller Login</button>  
+                <button type="submit" className="btn text-light loginButton"  onClick={handleResellerlogin}> Resellers Login</button>  
                 </div>
             </div> 
             <p className='text-center my-3'><Link to="/forget" className='text-decoration-none'>....𝕱𝖔𝖗𝖌𝖊𝖙 𝕻𝖆𝖘𝖘𝖜𝖔𝖗𝖉 ....</Link></p>
