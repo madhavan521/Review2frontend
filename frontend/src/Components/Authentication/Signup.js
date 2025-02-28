@@ -135,10 +135,10 @@ const handleResellersignup= async (e) => {
               placeholder='Enter your Password' className='input-form form-control' />  
             <div className="row mt-3">
                 <div className="col-6 text-center">
-                <button type="submit" className="btn btn-warning text-light loginButton" onClick={handleDealersignup}>Dealer Signup</button>  
+                <button type="submit" className="btn btn-warning text-light loginButton" onClick={handleDealersignup}>Dealers Signup</button>  
             </div>
                 <div className="col-6 text-center">
-                <button type="submit" className="btn btn-warning text-light loginButton" onClick={handleResellersignup}> Reseller Signup</button>  
+                <button type="submit" className="btn btn-warning text-light loginButton" onClick={handleResellersignup}> Resellers Signup</button>  
                 </div>
             </div> 
 
